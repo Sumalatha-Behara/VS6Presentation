@@ -74,3 +74,7 @@ var typeofAnnotation;
     bar = 456;
     bar = '789';
 })(typeofAnnotation || (typeofAnnotation = {}));
+
+function test(){
+    
+}
