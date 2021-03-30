@@ -17,6 +17,7 @@ async function dramaticWelcome(): Promise<void> {
     }
 
     console.log("World!");
+    console.log("testing");
 }
 
 dramaticWelcome();
