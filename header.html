@@ -9,10 +9,13 @@
           el.insertBefore(elChild, el.firstChild);
         }
         clearInterval(interval);
+        console.clear();
      }
   }
+  
   __addSupport();
   var interval = setInterval(function(){
      __addSupport(); 
   },1000);
 </script>
+
